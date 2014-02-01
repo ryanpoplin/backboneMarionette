@@ -18,7 +18,7 @@ module.exports = class Router extends Backbone.Router
         model: new Backbone.Model
           name: 'home'
           time: moment().format('MMMM Do YYYY, h:mm:ss a')
-      )
+    )
 
   signup: =>
     view = new SignUpView()
