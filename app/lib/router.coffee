@@ -29,15 +29,3 @@ module.exports = class Router extends Backbone.Router
           name: 'about'
           time: moment().format('MMMM Do YYYY, h:mm:ss a')
     )
-
-###
-  profile: =>
-    view = new ProfileView()
-    application.layout.content.show(view)
-    application.layout.footer.show(
-      new FooterView
-        model: new Backbone.Model
-          name: 'about'
-          time: moment().format('MMMM Do YYYY, h:mm:ss a')
-    )
-###
